@@ -1,3 +1,4 @@
+/* This is a fucntion that return a random element from  an array */
 function getRandomItem(array) {
     const randomIndex = Math.floor(Math.random() * array.length);
     const randomItem = array[randomIndex];
@@ -5,6 +6,7 @@ function getRandomItem(array) {
     return randomItem;
 }
 
+// a Function to return computer choice 
 function getComputerChoice() {
     const array = ["rock", "paper", "scissors"];
 
